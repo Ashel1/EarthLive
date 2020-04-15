@@ -2,11 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
 body{
     background: black;
 }
-
 .section{
     position: relative;
     width: 100%;
@@ -15,9 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
 }
-
 .section h1{
     text-align: center;
     font-size: 6rem;
@@ -28,15 +24,12 @@ body{
     color: #ffa64d;
 
 }
-
-
 .video-container{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
-
 .color-overlay{
     position: absolute;
     top: 0;
