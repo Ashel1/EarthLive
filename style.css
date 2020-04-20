@@ -50,11 +50,13 @@ body{
     height: 100vh;
     opacity: 0.5;
 }
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px 100px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./assets/containerBackGround.jpg');
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/containerBackGround.jpg');
     padding-bottom: 42px;
     padding-top: 40px;
     background-position: center;
@@ -65,6 +67,8 @@ body{
 
 
 }
+
+
 .cities{
     background-color: #ffa64d;
     color: blue;
@@ -76,6 +80,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain, cover;
+    font-size: 3em;
+    color: #ff8000;
 }
 
 .london{
@@ -83,6 +89,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
 
 .tokyo{
@@ -90,6 +98,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
 
 .NewDelhi{
@@ -97,6 +107,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
 
 .NewYork{
@@ -104,6 +116,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
 
 .Singapore{
@@ -111,4 +125,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
