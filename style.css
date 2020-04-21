@@ -28,7 +28,7 @@ body{
     position: absolute;
     text-align: center;
     font-size: 4rem;
-    top: 60vh;
+    top: 55vh;
     z-index: 1;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -49,4 +49,82 @@ body{
     width: 100%;
     height: 100vh;
     opacity: 0.5;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px 100px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/containerBackGround.jpg');
+    padding-bottom: 42px;
+    padding-top: 40px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh-120px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+
+.cities{
+    background-color: #ffa64d;
+    color: blue;
+    height: 40vh;
+}
+
+.paris{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Paris.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain, cover;
+    font-size: 3em;
+    color: #ff8000;
+}
+
+.london{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/London.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
+}
+
+.tokyo{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Tokyo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
+}
+
+.NewDelhi{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewDelhi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
+}
+
+.NewYork{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewYork.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
+}
+
+.Singapore{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Singapore.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: #ff8000;
 }
