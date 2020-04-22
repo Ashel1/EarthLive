@@ -1,174 +1,129 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-body{
-    background: black;
-}
-
-.section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-.section h1{
-    text-align: center;
-    font-size: 6rem;
-    z-index: 1;
-    padding: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 15px;
-    color: #ffa64d;
-}
-.section h3{
-    position: absolute;
-    text-align: center;
-    font-size: 4rem;
-    top: 55vh;
-    z-index: 1;
-    padding: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 10px;
-    color: #37a9dd;
-}
-.video-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.color-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: lightblue;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.5;
-}
-
-* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
   }
-  
   body{
-      
       background: black;
   }
-
-  .input{
-    text-align: center;
-    margin: 100px 0;
-}
-
-input[type="text"]
-{
-    height: 50px;
-    width: 600px;
-    background: #ffa64d
-    font-family: "Nunito",sans-serif;
-    font-weight:bold;
-    font-size:20px;
-    border:none;
-    border-radius: 12px;
-    padding: 10px 10px
-
-}
-
-input[type="button"]
-{
-    height: 50px;
-    width: 100px;
-    background: #ffa64d
-    font-family: "Nunito",sans-serif;
-    font-weight:bold;
-    font-size:20px;
-    border:none;
-    border-radius: 12px;
-    
-
-}
-
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 50px 100px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/containerBackGround.jpg');
-    padding-bottom: 42px;
-    padding-top: 40px;
-    background-position: center;
-    background-size: cover;
-    height: 100vh-120px;
-    padding-right: 100px;
-    padding-left: 100px;
-
-
-}
-
-
-.cities{
-    background-color: #ffa64d;
-    color: blue;
-    height: 40vh;
-}
-
-.paris{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Paris.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain, cover;
-    font-size: 3em;
-    color: #ff8000;
-}
-
-.london{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/London.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 3em;
-    color: #ff8000;
-}
-
-.tokyo{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Tokyo.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 3em;
-    color: #ff8000;
-}
-
-.NewDelhi{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewDelhi.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 3em;
-    color: #ff8000;
-}
-
-.NewYork{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewYork.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 3em;
-    color: #ff8000;
-}
-
-.Singapore{
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Singapore.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 3em;
-    color: #ff8000;
-}
+  
+  .section{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  .section h1{
+      text-align: center;
+      font-size: 6rem;
+      z-index: 1;
+      padding: 20px;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 15px;
+      color: #ffa64d;
+  }
+  .section h3{
+      position: absolute;
+      text-align: center;
+      font-size: 4rem;
+      top: 55vh;
+      z-index: 1;
+      padding: 10px;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 10px;
+      color: #37a9dd;
+  }
+  .video-container{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  .color-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: lightblue;
+      width: 100%;
+      height: 100vh;
+      opacity: 0.5;
+  }  
+  
+  .container{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap: 50px 100px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/containerBackGround.jpg');
+      padding-bottom: 42px;
+      padding-top: 40px;
+      background-position: center;
+      background-size: cover;
+      height: 100vh-120px;
+      padding-right: 100px;
+      padding-left: 100px;
+  
+  
+  }
+  
+  .cities{
+      background-color: #ffa64d;
+      color: blue;
+      height: 40vh;
+  }
+  
+  .paris{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Paris.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:contain, cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
+  .london{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/London.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
+  .tokyo{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Tokyo.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
+  .NewDelhi{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewDelhi.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
+  .NewYork{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewYork.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
+  .Singapore{
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Singapore.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 3em;
+      color: #ff8000;
+  }
+  
