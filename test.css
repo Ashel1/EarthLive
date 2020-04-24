@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+  
+  body{
+      
+      background: black;
+  }
+
+  .input{
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"]
+{
+    height: 50px;
+    width: 600px;
+    background: #ffa64d
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 10px
+
+}
+
+input[type="button"]
+{
+    height: 50px;
+    width: 100px;
+    background: #ffa64d
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    border-radius: 12px;
+    
+
+}
