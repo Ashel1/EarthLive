@@ -2,61 +2,86 @@
     margin: 0;
     padding: 0;
   }
+
+html {
+  scroll-behavior: smooth;
+}
+
   body{
-      background: black;
+      background: white;
+       background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
   }
   
+
   .section{
       position: relative;
       width: 100%;
-      height: 100vh;
+      height: 50vh;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/background2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: hidden;
   }
-  .section h1{
-      text-align: center;
+  .mainHeading{
+      position: absolute;
       font-size: 6rem;
-      z-index: 1;
       padding: 20px;
       font-family: 'Roboto Condensed', sans-serif;
       margin: 15px;
-      color: #ffa64d;
+      top: 5%  ;
+      color: #38c4cf;
   }
-  .section h3{
+  .cityinput{
       position: absolute;
       text-align: center;
       font-size: 4rem;
-      top: 55vh;
-      z-index: 1;
+      top: 35%;
       padding: 10px;
       font-family: 'Roboto Condensed', sans-serif;
       margin: 10px;
-      color: #ff8000;
 
   }
-  .video-container{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+  .citybox{
+      width: 50vw;
+      height: 40px;
+      background-color: rgb(167, 166, 166);
+      outline: none;
+      border-radius: 12px;
+      padding-left: 20px;
+      box-shadow:4px 4px 8px 0 rgba(0,0,0,.2)
   }
-  .color-overlay{
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: lightblue;
-      width: 100%;
-      height: 100vh;
-      opacity: 0.5;
-  }  
-  
-  .container{
+  .citybox:focus{
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      border: 1px solid rgba(81, 203, 238, 1);
+  }
+  .city{
+      color: #ffa64d;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 3rem;
+  }
+  .weatherCard{
+      background-color:#9eebcf;
+      display:inline-block;
+      border-radius:.5rem;
+      padding:3rem;
+      margin:2rem
+  }
+  .grow{-moz-osx-font-smoothing:grayscale;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:translateZ(0);transform:translateZ(0);transition:-webkit-transform .25s ease-out;transition:transform .25s ease-out;transition:transform .25s ease-out,-webkit-transform .25s ease-out}
+  .grow:focus,.grow:hover
+  {-webkit-transform:scale(1.05);transform:scale(1.05)}
+  .grow:active{-webkit-transform:scale(.9);transform:scale(.9)}
+
+
+
+  .cards{
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(auto-fill,minmax(200px,300px));
       grid-gap: 50px 100px;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/containerBackGround.jpg');
       padding-bottom: 42px;
       padding-top: 40px;
       background-position: center;
@@ -64,16 +89,12 @@
       height: 100vh-120px;
       padding-right: 100px;
       padding-left: 100px;
-  
-  
   }
-  
   .cities{
       background-color: #ffa64d;
       color: blue;
       height: 40vh;
   }
-  
   .paris{
       background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Paris.jpg');
       background-position: center;
@@ -82,7 +103,6 @@
       font-size: 3em;
       color: #ff8000;
   }
-  
   .london{
       background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/London.jpg');
       background-position: center;
@@ -90,8 +110,7 @@
       background-size: cover;
       font-size: 3em;
       color: #ff8000;
-  }
-  
+  } 
   .tokyo{
       background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Tokyo.jpg');
       background-position: center;
@@ -127,4 +146,3 @@
       font-size: 3em;
       color: #ff8000;
   }
-  

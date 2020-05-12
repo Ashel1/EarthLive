@@ -12,23 +12,67 @@
   </head>
   <body>
     <div class="section">
-      <h1>Earth Live</h1>
-      <br /><br />
-      <h3>Coming Soon!!!</h3>
-      <div class="video-container">
-        <div class="color-overlay"></div>
-        <video autoplay loop muted poster="./assets/thumbnail.png">
-          <source src="./assets/timelapse.mp4" type="video/mp4" />
-        </video>
+      <h1 class="mainHeading">Earth Live</h1>
+      <div class="cityinput">
+        <input type="text" class="citybox form-control" placeholder="Enter Name Of Your City">
+        <!--<button type="submit" class="citysubmit">🔎</button>-->
       </div>
-    </div>   
+      <!--<button class="scroller"><a href="#tocities">Click</a></button>   Button used to scroll down to the cities        !-->
+    </div> 
+    <div class="city_weather">  
+      <!--<div class="cityName">
+        <h1 class="city">%City</h1>
+      </div>-->
+      <div class="cards">
+
+          <!--<div class="weatherCard grow" id="card1">
+              <h1>%Date%</h1><br><br><br><br>
+              <p>
+                Temp: %temp% <br><br>
+                Feels Like: %tempfelt%<br><br>
+                Max Temp: %MaxTemp%<br><br>
+                Min Temp: %MinTemp%<br><br>
+                Pressure: %Pressure%<br><br>
+                Humidity: %Humidity%<br><br>
+              </p>
+          </div>
+
+          <div class="weatherCard grow" id="card2">
+              <h1>%Date%</h1><br><br><br><br>
+              <p>
+                Temp: %temp% <br><br>
+                Feels Like: %tempfelt%<br><br>
+                Max Temp: %MaxTemp%<br><br>
+                Min Temp: %MinTemp%<br><br>
+                Pressure: %Pressure%<br><br>
+                Humidity: %Humidity%<br><br>
+              </p>
+          </div>
+
+          <div class="weatherCard grow" id="card3">
+              <h1>%Date%</h1><br><br><br><br>
+              <p>
+                Temp: %temp% <br><br>
+                Feels Like: %tempfelt%<br><br>
+                Max Temp: %MaxTemp%<br><br>
+                Min Temp: %MinTemp%<br><br>
+                Pressure: %Pressure%<br><br>
+                Humidity: %Humidity%<br><br>
+              </p>
+          </div>-->
+
+      </div>
+    </div>
+    <!--
     <div class="container">
-      <div class="cities paris">Paris</div>
+      <div id="tocities" class="cities paris">Paris</div>
       <div class="cities london">London</div>
       <div class="cities tokyo">Tokyo</div>
       <div class="cities NewDelhi">New Delhi</div>
       <div class="cities NewYork">New York</div>
       <div class="cities Singapore">Singapore</div>
     </div>
+    !-->
+    <script src="app.js"></script>
   </body>
 </html>
