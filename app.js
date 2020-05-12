@@ -134,7 +134,7 @@ var Appcontroller=(function(UIcontroller){
     var DOM=UIcontroller.getDOMstrings();
     var flag=0;
     var getCity=()=>{
-        fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + document.querySelector(DOM.inputCity).value + '&units=metric&appid=d4a374e00a557b13a1142c3f1e466b72')
+        fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + document.querySelector(DOM.inputCity).value + '&units=metric&appid=d4a374e00a557b13a1142c3f1e466b72')
             .then(response => response.json())
             .then(data => {
                 if(data.cod>=200 && data.cod<=299){
