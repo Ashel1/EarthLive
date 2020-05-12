@@ -58,7 +58,13 @@ html {
       box-shadow: 0 0 5px rgba(81, 203, 238, 1);
       border: 1px solid rgba(81, 203, 238, 1);
   }
-  .cityCard{
+  .city{
+      color: #ffa64d;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 3rem;
+  }
+  .weatherCard{
       background-color:#9eebcf;
       display:inline-block;
       border-radius:.5rem;
