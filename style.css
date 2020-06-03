@@ -12,6 +12,9 @@ html {
        background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
   }
   
+h1{
+    font-size: 37px;
+}
 
   .section{
       position: relative;
@@ -69,80 +72,20 @@ html {
       display:inline-block;
       border-radius:.5rem;
       padding:3rem;
-      margin:2rem
+      margin:5px;
   }
   .grow{-moz-osx-font-smoothing:grayscale;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:translateZ(0);transform:translateZ(0);transition:-webkit-transform .25s ease-out;transition:transform .25s ease-out;transition:transform .25s ease-out,-webkit-transform .25s ease-out}
   .grow:focus,.grow:hover
   {-webkit-transform:scale(1.05);transform:scale(1.05)}
   .grow:active{-webkit-transform:scale(.9);transform:scale(.9)}
 
-
-
   .cards{
       display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(200px,300px));
-      grid-gap: 50px 100px;
+      grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+      justify-items: stretch;
+      grid-gap: 0px;
       padding-bottom: 42px;
       padding-top: 40px;
       background-position: center;
       background-size: cover;
-      height: 100vh-120px;
-      padding-right: 100px;
-      padding-left: 100px;
-  }
-  .cities{
-      background-color: #ffa64d;
-      color: blue;
-      height: 40vh;
-  }
-  .paris{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Paris.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size:contain, cover;
-      font-size: 3em;
-      color: #ff8000;
-  }
-  .london{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/London.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 3em;
-      color: #ff8000;
-  } 
-  .tokyo{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Tokyo.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 3em;
-      color: #ff8000;
-  }
-  
-  .NewDelhi{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewDelhi.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 3em;
-      color: #ff8000;
-  }
-  
-  .NewYork{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/NewYork.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 3em;
-      color: #ff8000;
-  }
-  
-  .Singapore{
-      background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('./assets/Singapore.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 3em;
-      color: #ff8000;
   }
