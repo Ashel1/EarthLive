@@ -81,7 +81,7 @@ var UIcontroller=(function(){
         newHtml2 = newHtml2.replace('%Pressure%', data.list[tomorrowDate].main.pressure);
         newHtml2 = newHtml2.replace('%Humidity%', data.list[tomorrowDate].main.humidity);
         
-        newHtml3 = html.replace('%day%', 'Tomorrow Same Time');
+        newHtml3 = html.replace('%day%', 'Overmorrow Same Time');
         newHtml3 = newHtml3.replace('%temp% ', data.list[overmorrowDate].main.temp + ' C');
         newHtml3 = newHtml3.replace('%card%', 'card3');
         newHtml3 = newHtml3.replace('%tempfelt%', data.list[overmorrowDate].main.feels_like + ' C');
