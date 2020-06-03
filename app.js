@@ -61,10 +61,10 @@ var UIcontroller=(function(){
     var cards=(data)=>{
         var html, newHtml1, newHtml2, newHtml3;
         var { current, todayEvening, tomorrowMorning, tomorrowEvening}=compareDate(data);
-        console.log(data.list[current].dt_txt);    
+        /*console.log(data.list[current].dt_txt);    
         console.log(data.list[todayEvening].dt_txt);
         console.log(data.list[tomorrowMorning].dt_txt);
-        console.log(data.list[tomorrowEvening].dt_txt);
+        console.log(data.list[tomorrowEvening].dt_txt);      To check if date are correct */
         html = '<div class="weatherCard grow" id="%card%"><h1>%day%</h1><br><br><br><p>Temp: %temp% <br><br>Feels Like: %tempfelt%<br><br>Max Temp: %MaxTemp%<br><br>Min Temp: %MinTemp%<br><br>Pressure: %Pressure%<br><br>Humidity: %Humidity%<br><br></p></div>';
         
         newHtml1= html.replace('%day%', 'Current Weather');
